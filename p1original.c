@@ -1,7 +1,7 @@
 #include<stdio.h>
 void input(float *base,float *height)
 {
-  printf("enter the lengths in the format base height");
+  printf("enter the lengths in the format base height\n");
   scanf("%f %f",base,height);
 }
 void find_area(float base, float height, float *area)
@@ -10,7 +10,7 @@ void find_area(float base, float height, float *area)
 }
 void output(float base, float height, float area)
 {
-  printf("the area of the triangle with base %f and height %f is %f",base,height,area);
+  printf("the area of the triangle with base %f and height %f is %f\n",base,height,area);
 }
 int main()
 {
