@@ -1,7 +1,7 @@
 #include<stdio.h>
 void input_string(char *a)
 {
-  printf("enter the string you want to reverse");
+  printf("enter the string you want to reverse\n");
   scanf("%s",a);
 }
 char *str_reverse(char *a)
@@ -24,7 +24,7 @@ char *str_reverse(char *a)
 }
 void output(char *a,char *reversea)
 {
-  printf("the rverse of %s is %s",a,reversea);
+  printf("the rverse of %s is %s\n",a,reversea);
 }
 int main()
 {
