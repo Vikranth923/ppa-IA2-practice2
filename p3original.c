@@ -2,7 +2,7 @@
 int input_number()
 {
   int x;
-  printf("enter a number");
+  printf("enter a number\n");
   scanf("%d",&x);
   return x;
 }
@@ -23,11 +23,11 @@ void output(int n, int composite)
 {
   if (composite==1)
   {
-    printf("%d is a composite number",n);
+    printf("%d is a composite number\n",n);
   }
   else
   {
-    printf("%d is a prime number",n);
+    printf("%d is a prime number\n",n);
   }
 }
 int main()
