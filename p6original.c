@@ -31,8 +31,8 @@ int main()
   char b[1000] = { '\0' };
   
   input_string(b);
- // char reverse[1000] = str_reverse(b);
-  output(b, str_reverse(b) );
+  char reverse[1000] ;
+  output(b, reverse );
   //output(b,reverse);
   return 0;
 }
